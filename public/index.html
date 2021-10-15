@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name='author' content="Vivekkumar Javiya">
+    <meta name='keyword' content="Full Stack Developer">
+    <meta
+      name="description"
+      content="Codewithvk"
+    />
+
+    <title>Vivekkumar Javiya</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+    <div id="root"></div>
+    <script>
+      if("serviceWorker" in navigator){
+        window.addEventListener('load', ()=>{
+          navigator.serviceWorker.register('./serviceWorker.js').then((reg)=> console.log('Success', reg.scope)).catch((err)=> console.log(err))
+        })
+      }
+    </script>
+
+  </body>
+</html>
