@@ -11,6 +11,7 @@
   max-width: 1080px;
   margin: 0 auto;
   /* background: #2b343a; */
+  
   padding: 0 10%;
   border-radius: 2px;
 }
@@ -109,7 +110,8 @@ Main components
   position: relative;
   margin-left: 60px;
   margin-right: 30px;
-  background: #333c42;
+  background: #323232;
+
   border-radius: 2px;
   padding: 1em;
   text-align: left !important;
@@ -117,7 +119,8 @@ Main components
 }
 
 .cd-timeline-content , .timeline-content-info {
-    background: #2b343a;
+     background: #323232;
+
     padding: 5px 10px;
     color: rgba(255, 255, 255, 0.7);
     font-size: 12px;
