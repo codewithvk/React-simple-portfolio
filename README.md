@@ -1,4 +1,4 @@
-## React Simple Porfolio
+## React Simple Portfolio
 
 ![Intro GIF](https://github.com/codewithvk/React-simple-portfolio/blob/master/assets/Intro.gif)
 
