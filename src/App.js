@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 
+
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
 const Project = lazy(() => import('./components/Project'));
