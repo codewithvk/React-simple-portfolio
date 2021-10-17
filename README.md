@@ -1,34 +1,29 @@
+
 ## React Simple Portfolio
 
 ![Intro GIF](https://github.com/codewithvk/React-simple-portfolio/blob/master/assets/Intro.gif)
 
-### Set Up
+### Getting started
 
-- Clone repo
-  <br />
-  ```
-  git clone https://github.com/codewithvk/React-simple-portfolio.git
-  ```
-  <!--   <br /> -->
-  or you can diretly use as template
-  <br />
-  ![Intro GIF](https://github.com/codewithvk/React-simple-portfolio/blob/master/assets/template.png)
-- Go to Project Directory and install node modules
-  ```
-  npm install
-  ```
-- After installing node module ,
-  ```
-  npm start
-  ```
-  - You can see website popup on http://localhost:3000/
+1. Clone the repo 
+    `git clone https://github.com/codewithvk/React-simple-portfolio.git`
+    or use the template by clicking on "Use this template"
+![Intro GIF](https://github.com/codewithvk/React-simple-portfolio/blob/master/assets/template.png)
+
+2. Go into the project directory and install the node modules by running
+	 `npm install`
+
+3. After successfully installing all the node modules run
+  `npm start`
+  
+ You should be able to see the website running in a new tab on http://localhost:3000/
 
 ## Customisation
 
-For user simplicity i had create all centeral file where you can add your info and it will reflect on local/prod.
+For user simplicity I created a central file where you can add your info which will be reflected on local/prod.
 
-- ### Experiance
-  - In Experiance section you can add your work history, For that you should go `/src/ExData.js`, Where you can modified JSON according to you.
+### Experience
+  - In the Experience section you can add your work history. For that, you should go to `/src/ExData.js`, where you can modify the JSON according to you.
   ```
   const workHistory = [
     {
@@ -45,8 +40,9 @@ For user simplicity i had create all centeral file where you can add your info a
    },
   ]
   ```
-- ### Projects
-  - In Projects section you can add your Project, For that you should go `/src/projectData.js`, Where you can modified JSON according to you.
+
+### Projects
+  - In the Projects section you can add your Project. For that, you should go to `/src/projectData.js`, where you can modify the JSON according to you.
   ```
   const projects = [
      {
@@ -59,13 +55,15 @@ For user simplicity i had create all centeral file where you can add your info a
       },
   ]
   ```
-  - Same thing you can do with skill and main info, For that you can refer file `src/root.link.js ` & `src/SkillData.js`.
-  - If you want to add any skill which is not mentioned , then you need to download svg for skill logo, for that you can refer [here](https://github.com/codewithvk/React-simple-portfolio/blob/master/src/SkillData.js#L77)
+  
+The same customisations can be implemented in the skills and main sections. For that you can refer to the file `src/root.link.js` and  `src/SkillData.js`.
+ 
+If you would like to add any skill which is not mentioned, then you will need to download a svg for  the skill logo, for that you can refer [here](https://github.com/codewithvk/React-simple-portfolio/blob/master/src/SkillData.js#L77).
 
 ## Contributor & Credit
 
-- I had use basic template from [Deelip's repo](https://github.com/Deelip7/react-portfolio) , Coustomised it and make thing centralized! <br />
+I used the basic template from [Deelip's repo](https://github.com/Deelip7/react-portfolio), customised it and made everything centralised! <br />
   ```
-  Do not Repet your self!
+  Do not Repeat your self!
   ```
-- Wanna Contribute or doubt , Fill free to drop mail work.vivekjaviya@gmail.com
+Want to contribute or have any queries? Feel free to drop me an email at work.vivekjaviya@gmail.com.
