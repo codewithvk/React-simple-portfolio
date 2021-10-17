@@ -1,13 +1,14 @@
 
-## React Simple Portfolio
+# React Simple Portfolio
 
 ![Intro GIF](https://github.com/codewithvk/React-simple-portfolio/blob/master/assets/Intro.gif)
 
-### Getting started
+## Getting started
 
 1. Clone the repo 
     `git clone https://github.com/codewithvk/React-simple-portfolio.git`
     or use the template by clicking on "Use this template"
+    
 ![Intro GIF](https://github.com/codewithvk/React-simple-portfolio/blob/master/assets/template.png)
 
 2. Go into the project directory and install the node modules by running
