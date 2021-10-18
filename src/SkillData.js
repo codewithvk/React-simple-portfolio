@@ -72,9 +72,12 @@ const Familiar = [
     },
     
 ]
-export { Proficient, Familiar}
+export { Proficient, Familiar }
 
+// Download your skill svg file from
 // https://www.vectorlogo.zone
+
+
 // {
 //     skill: "",
 //     logo: "./images/icons/"

@@ -42,7 +42,7 @@ Main components
   width: 4px;
   background: #7e57c2;
 }
-@media only screen and (min-width: 1170px) {
+@media  (min-width: 1170px) {
   #cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -68,7 +68,7 @@ Main components
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1170px) {
+@media (min-width: 1170px) {
   .cd-timeline-block {
     margin: 4em 0;
   }
@@ -93,7 +93,7 @@ Main components
 .cd-timeline-img {
   background: #673ab7;
 }
-@media only screen and (min-width: 1170px) {
+@media (min-width: 1170px) {
   .cd-timeline-img {
     width: 30px;
     height: 30px;
@@ -126,16 +126,17 @@ Main components
     font-size: 12px;
     /* box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.08); */
     border-radius: 2px;
-  text-align: left;
+    text-align: left;
    
-    @media (max-width: 500px) {
+    
+  }
+  @media (max-width: 500px) {
       .timeline-content-info-title,
       .timeline-content-info-date {
         display: block;
         width: 100%;
       }
     }
-  }
   .cd-timeline-content , .timeline-content-info , i {
       margin-right: 5px;
     }
@@ -205,7 +206,7 @@ Main components
   border-right: 7px solid #333c42;
 }
 
-@media only screen and (min-width: 768px) {
+@media  (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
     font-size: 1.25rem;
@@ -220,7 +221,7 @@ Main components
     font-size: 0.875rem;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media (min-width: 1170px) {
   .cd-timeline-content {
     color: white;
     margin-left: 0;

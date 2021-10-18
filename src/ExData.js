@@ -6,7 +6,6 @@ const workHistory = [
         workDes: [
             'Build SocicalSpace B2B product and improved 3% performance by refactoring database design and modified API end - points.',
             'Designed and developed REST API’s to integrate user interaction with Twitter and Linkedin on server.',
-            'Developed various automation task using Twitter API & Cron Schedule for end user.'
         ],
         exposer: ["React", "Redux Saga ", "NodeJs", "ExpressJs", "MongoDB", "Heroku", "Twitter API’s", "LinkedIn API"] ,
         link: 'https://wecommit.in/',
