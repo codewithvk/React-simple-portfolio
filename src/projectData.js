@@ -8,6 +8,14 @@ const projects = [
     // link: 'https://github.com/Code-Deeper/code-sync',
   },
   {
+    title: 'Compiler API',
+    image: './images/Design.png',
+    description: 'Design , Build & Deployed Compiler api for C++,Java & Python, It can be work with linux and windows cloud service.',
+    tools: ['Nodejs', 'ExpressJs' , 'Docker' , 'Heroku'],
+    github: 'https://github.com/codewithvk/Easy-Compiler-API',
+    link: 'https://rapidapi.com/codewithvk/api/easy-compiler-api/',
+  },
+  {
     title: 'Patang Store',
     image: './images/project2-768.png',
     description: 'Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.',
