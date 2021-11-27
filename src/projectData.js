@@ -2,10 +2,10 @@ const projects = [
   {
     title: 'CodeSync',
     image: './images/project1.png',
-    description: "Bulding SaaS product for help student and teacher's Community, Web App include Real time Chat, Audio, CodeShare, WhiteBoard and Many more!",
+    description: "bulding Cloud Collaborative tool for student,teacher & Professionals, Web App include Real time Chat, Audio, CodeShare, WhiteBoard and Many more!",
     tools: ['ReactJs', 'NodeJs', 'ExpressJs', "MongoDB", "Redux","SocketIO","WebRTC", "JWT" , "Google Auth"],
     github: 'https://github.com/Code-Deeper/code-sync',
-    // link: 'https://github.com/Code-Deeper/code-sync',
+    link: 'https://codesync.live/',
   },
   {
     title: 'Compiler API',
