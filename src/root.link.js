@@ -1,4 +1,4 @@
-export const RESUME_PATH = 'https://drive.google.com/file/d/1_LPBWP6YTmo31k6AzeqS5Oi32Bu6RhvA/view?usp=sharing';
+export const RESUME_PATH = 'https://drive.google.com/file/d/1QtT_iOlVhAOsWXzJKx88B1lUUbmbPRXz/view?usp=sharing';
 export const GITHUB_USERNAME = 'codewithvk';
 export const LINKEDIN_USERNAME = 'vivekkumarjaviya';
 export const FIRST_NAME = 'Vivekkumar';
