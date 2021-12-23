@@ -61,10 +61,4 @@ The same customisations can be implemented in the skills and main sections. For 
  
 If you would like to add any skill which is not mentioned, then you will need to download a svg for  the skill logo, for that you can refer [here](https://github.com/codewithvk/React-simple-portfolio/blob/master/src/SkillData.js#L77).
 
-## Contributor & Credit
 
-I used the basic template from [Deelip's repo](https://github.com/Deelip7/react-portfolio), customised it and made everything centralised! <br />
-  ```
-  Do not Repeat your self!
-  ```
-Want to contribute or have any queries? Feel free to drop me an email at work.vivekjaviya@gmail.com.
