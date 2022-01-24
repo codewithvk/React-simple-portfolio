@@ -1,17 +1,17 @@
 const workHistory = [
     {
-        companyName : 'WeCommit',
+        companyName : 'Company Name 1',
         role: 'SDE Intern',
         duration: "July'21 – Oct'21",
         workDes: [
-            'Build SocicalSpace B2B product and improved 3% performance by refactoring database design and modified API end - points.',
+            'Build So and so on for xyz.',
             'Designed and developed REST API’s to integrate user interaction with Twitter and Linkedin on server.',
         ],
         exposer: ["React", "Redux Saga ", "NodeJs", "ExpressJs", "MongoDB", "Heroku", "Twitter API’s", "LinkedIn API"] ,
-        link: 'https://wecommit.in/',
+        link: 'https://google.com/',
     },
     {
-        companyName: 'EnR Consultancy',
+        companyName: 'Company Name 2',
         role: 'SDE Intern',
         duration: "Mar'21 – Apr'21",
         workDes: [
@@ -19,19 +19,9 @@ const workHistory = [
             'Designed and developed REST APIs to increase user interaction on the server.',
         ],
         exposer: ["React ", "NodeJs", "MongoDB" , "ContextAPI"],
-        link: 'https://engagenreap.com/',
+        link: 'https://google.com/',
     },
-    {
-        companyName: "GSSOC'21",
-        role: 'Student Mentor',
-        duration: "Feb'21 – Apr'21",
-        workDes: [
-            'Mentored 100+ student with their first pull request in open source',
-            'Maintained code base of girls script official & Kurroku project',
-        ],
-        exposer: ["React ", "NodeJs", "MongoDB", "ExpressJS"],
-        link: 'https://gssoc.girlscript.tech/',
-    },
+    
 ];
 
 export default workHistory;
