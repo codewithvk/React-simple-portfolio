@@ -1,5 +1,4 @@
-import { lazy, Suspense } from 'react';
-
+import {lazy, Suspense} from 'react';
 
 const Header = lazy(() => import('./components/Header'));
 const Hero = lazy(() => import('./components/Hero'));
@@ -10,7 +9,7 @@ const Experience = lazy(() => import('./components/Experience'))
 function App() {
   return (
     <Suspense
-      fallback={
+  fallback = {
         <div className='sk-folding-cube'>
           <div className='sk-cube1 sk-cube'></div>
           <div className='sk-cube2 sk-cube'></div>
