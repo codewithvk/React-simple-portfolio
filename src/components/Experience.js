@@ -12,8 +12,8 @@ function Experience() {
                     <div className="main-cont">
                         <section id="cd-timeline" className="cd-container">
                             {/*  */}
-                            {workHistory && workHistory.map((work) => (
-                                <div className="cd-timeline-block">
+                            {workHistory && workHistory.map((work, index) => (
+                                <div className="cd-timeline-block" key={index}>
                                     <div className="cd-timeline-img cd-picture"></div>
                                     <div className="cd-timeline-content">
                                         <h1 className="uppercase font-bold text-2xl pl-3 pt-2 flex">{work?.companyName}
@@ -30,12 +30,12 @@ function Experience() {
                                         </span></h1>
                                         <h4 className="uppercase font-bold text-base pl-3 pt-2">{work?.role}</h4>
 
-                                        <div class="timeline-content-info">
+                                        <div className="timeline-content-info">
                                             <h5 className='text-sm' >{work.duration}</h5>
                                         </div>
                                         <div className='pl-2'>
-                                            {work?.workDes && work.workDes.map((x) => (
-                                                <h4 className='text-base pt-2'> <span className="text-2xl">-</span> {x} </h4>
+                                            {work?.workDes && work.workDes.map((x,index) => (
+                                                <h4 className='text-base pt-2' key={index}> <span className="text-2xl">-</span> {x} </h4>
                                             ))}
                                             
                                         </div>

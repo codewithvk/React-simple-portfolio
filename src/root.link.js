@@ -1,4 +1,4 @@
-export const RESUME_PATH = 'https://drive.google.com/';
+export const RESUME_PATH = './Vivekkumar_Javiya_Resume.pdf';
 export const GITHUB_USERNAME = 'codewithvk';
 export const LINKEDIN_USERNAME = 'vivekkumarjaviya';
 export const FIRST_NAME = 'Vivekkumar';
